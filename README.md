@@ -175,7 +175,7 @@ github.com
 
 ## 참고 문헌
 
-1) “LG SMILES 경진대회”,데이콘. 2020년 12월 9일 수정 2020년 12월9일 접속 https://dacon.io/competitions/official/235640/overview/
+1)“LG SMILES 경진대회”,데이콘. 2020년 12월 9일 수정 2020년 12월9일 접속 https://dacon.io/competitions/official/235640/overview/
 
 2)“딥러닝을 이용한 자연어 처리 입문”. 위키독스. 2020년 12월 9일 접속. https://wikidocs.net/22893
 

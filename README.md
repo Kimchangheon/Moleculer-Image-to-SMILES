@@ -1,3 +1,5 @@
+https://kimchangheon.tistory.com/5
+
 # 분자구조 이미지 SMILES(분자구조 문자열 표현식) 변환 AI 개발
 
 ![image](https://user-images.githubusercontent.com/39324421/114260535-6e8fbc80-9a10-11eb-8e3f-59c942b727bd.png)

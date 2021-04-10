@@ -41,7 +41,7 @@ SMILES(Simplified Molecular Input Line Entry System)는 기존의 분자식[foot
 
 위에서 언급된 CNN은 이미지 인식이나 특징추출을 위한 신경망이며 사람보다 인식률이 좋다고 평가받고 있습니다. RNN은 문장에서 나올 다음 단어를 예측하는 것과 같이 순차데이터를 예측하기 위한 신경망입니다.
 
-![image](https://user-images.githubusercontent.com/39324421/114260587-d80fcb00-9a10-11eb-9e9c-c905aa3507ba.png)
+![image](https://user-images.githubusercontent.com/39324421/114260737-99c6db80-9a11-11eb-865e-7f4b061b6334.png)
 기존 연구내용도 encoder to decoder model을 활용했음을 볼 수 있습니다.
 
 ## 데이터 수집 및 생성
@@ -57,12 +57,9 @@ SMILES(Simplified Molecular Input Line Entry System)는 기존의 분자식[foot
 모델의 구조는 크게 세 파트로 나뉩니다. 이미지를 인식하고 해당 이미지에서 필요한 특성(feature)들을 뽑아내는 Encoder 파트, 학습하는 과정에서 이미지의 어떤 부분을 집중해서 봐야 할지 알려주는 Attention 파트, 그리고 Encoder 와 Attention에서 알려준 정보를 가지고 알맞은 Token 을 순차적으로 내뱉는 Decoder 부분이 있습니다.
 ![image](https://user-images.githubusercontent.com/39324421/114260603-f4ac0300-9a10-11eb-95a0-3085997023b2.png)
 
-
-
-
-![image](https://user-images.githubusercontent.com/39324421/114260610-ff669800-9a10-11eb-8c12-c0ede5045b19.png)
-
 ## 인코더
+![image](https://user-images.githubusercontent.com/39324421/114260716-7e5bd080-9a11-11eb-984d-5520db14d3f3.png)
+
 Encoder는 CNN구조이며 EfficientNetB0을 적용하였습니다. 인코더에서는 분자구조이미지텐서를 받아서 features텐서를 리턴합니다.
 
 인코더 내부의 자세한 과정에 대한 설명을 덧붙이자면 다음과 같습니다
